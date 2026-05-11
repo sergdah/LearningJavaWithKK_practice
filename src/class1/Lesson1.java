@@ -3,11 +3,10 @@ package class1;
 import java.util.Scanner;
 
 public class Lesson1 {
-
-    public class Lesson {
+    //public class Lesson {
         public static void main(String[] args) {
-/*
-        int a;
+
+ /*       int a;
 
         a = 88/(10+12);
         System.out.println(a);
@@ -75,7 +74,7 @@ public class Lesson1 {
                 System.out.println("Число a делится на 3");
             } else if (a % 7 == 0) {
                 System.out.println("Число a делится на 7");
-            }
+            } else System.out.println("Число a не делится на 3 и не делится на 7");
         }
-    }
+
 }

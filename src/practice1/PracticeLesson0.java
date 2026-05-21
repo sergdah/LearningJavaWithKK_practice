@@ -1,11 +1,11 @@
-package class1;
-/*
+package practice1;
+
 import java.util.Scanner;
 
-public class Lesson1 {
+public class PracticeLesson0 {
     //public class Lesson {
-        public static void main(String[] args) {
-*/
+    public static void main(String[] args) {
+
  /*       int a;
 
         a = 88/(10+12);
@@ -43,15 +43,14 @@ public class Lesson1 {
 */
 
 
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Введите a");
-            int a = sc.nextInt();
-/*      System.out.println("Введите b");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите a");
+        int a = sc.nextInt();
+/*    System.out.println("Введите b");
         int b = sc.nextInt();
         System.out.println("Введите c");
         int c = sc.nextInt();
 */
-
 /*      if (a > b) {
             c = a - b;
             System.out.println(c);
@@ -63,10 +62,10 @@ public class Lesson1 {
             System.out.println(c);
         }
 */
-/*      if (a%3==0) {
+        if (a % 3 == 0) {
             System.out.println("Число a делится на 3");
-        } else System.out.println("Число a не делится на 3");
-*/
+        } else
+            System.out.println("Число a не делится на 3");
 /*
             if (a % 3 == 0 && a % 7 == 0) {
                 System.out.println("Число a делится на 3 и на 7");
@@ -74,7 +73,6 @@ public class Lesson1 {
                 System.out.println("Число a делится на 3");
             } else if (a % 7 == 0) {
                 System.out.println("Число a делится на 7");
-            } else System.out.println("Число a не делится на 3 и не делится на 7");
+            } else System.out.println("Число a не делится на 3 и не делится на 7");*/
         }
-
-}*/
+}

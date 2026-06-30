@@ -12,5 +12,4 @@ public class UserRepository {
      users.add(new User("vasia","SyrVsa34", "Дима","Продиджи"));
      users.add(new User("olya","SyrVsa34", "Оля","Гуд"));
    }
-
 }
